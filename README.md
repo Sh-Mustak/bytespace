@@ -1,16 +1,119 @@
-# React + Vite
+# ByteSpace
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ByteSpace is a modern online learning platform landing page built with React and Vite. It showcases a polished digital education experience with course categories, featured learning paths, testimonials, and a strong call-to-action section designed to attract learners and creators.
 
-Currently, two official plugins are available:
+Live demo: https://bytespace-roan.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Overview
 
-## React Compiler
+This project focuses on a premium learning brand experience, combining:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- a clean hero section with conversion-focused messaging
+- course discovery and category highlights
+- growth metrics and learning outcomes
+- community-driven testimonial content
+- modern, responsive UI for desktop and mobile screens
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Responsive landing page for a digital learning platform
+- Highlighted course cards and learning categories
+- Modern educational branding and visual hierarchy
+- Community trust section with learner testimonials
+- Clear CTA section encouraging sign-up or course exploration
+- Clean component-based architecture with reusable UI blocks
+
+## Tech Stack
+
+- React
+- Vite
+- JavaScript
+- React Router
+- Tailwind CSS
+- ESLint
+
+## Project Structure
+
+```bash
+bytespace/
+├── public/
+│   └── img/
+├── src/
+│   ├── components/
+│   ├── data/
+│   ├── pages/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+├── vite.config.js
+├── eslint.config.js
+├── vercel.json
+└── README.md
+```
+
+## Getting Started
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- Node.js (v18 or newer recommended)
+- npm
+
+### Installation
+
+```bash
+git clone https://github.com/Sh-Mustak/bytespace.git
+cd bytespace
+npm install
+```
+
+### Run locally
+
+```bash
+npm run dev
+```
+
+Then open the local URL shown in the terminal, usually:
+
+```bash
+http://localhost:5173
+```
+
+### Build for production
+
+```bash
+npm run build
+```
+
+### Preview production build
+
+```bash
+npm run preview
+```
+
+## Deployment
+
+This project is deployed on Vercel.
+
+- Live site: https://bytespace-roan.vercel.app/
+
+## Scripts
+
+```bash
+npm run dev      # start the development server
+npm run build    # create a production build
+npm run preview  # preview the production build locally
+npm run lint     # run ESLint checks
+```
+
+## License
+
+This project is licensed under the MIT License.
+
+## Author
+
+Built by the ByteSpace team and designed as a modern educational landing page experience.
