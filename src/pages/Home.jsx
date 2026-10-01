@@ -1,4 +1,5 @@
 import CoursesSection from "../components/courseSection/CoursesSection.jsx";
+import CTASection from "../components/ctaSection/CTASection.jsx";
 import GrowthSection from "../components/growthSection/GrowthSection.jsx";
 import Hero from "../components/hero/Hero.jsx";
 import LogosStrip from "../components/logoStrip/LogosStrip.jsx";
@@ -10,6 +11,7 @@ export default function Home() {
       <LogosStrip />
       <CoursesSection />
       <GrowthSection />
+      <CTASection />
     </>
   );
 }

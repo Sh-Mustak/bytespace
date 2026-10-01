@@ -6,7 +6,7 @@ export default function Button({
 }) {
   return (
     <As
-      className={`bg-lime text-blue-d font-bold text-sm px-6 py-3 rounded-lg whitespace-nowrap inline-block ${className}`}
+      className={`bg-[#D4FB20] text-[#242528] font-satoshi font-bold text-sm px-6 py-3 rounded-lg whitespace-nowrap inline-block ${className}`}
       {...rest}
     >
       {children}

@@ -7,7 +7,7 @@ import {
   Ring,
   Triangle,
   WhiteSquiggle,
-} from "./Shapes.jsx";
+} from "../common/Shapes.jsx";
 import Instructor from "/img/guy.png";
 import Circle from "/img/radius.svg";
 
