@@ -14,7 +14,7 @@ import Circle from "/img/radius.svg";
 export default function Hero() {
   return (
     <header className="bg-[#003BE2] bg-grid-lines bg-grid text-white relative overflow-hidden text-center">
-      <div className="max-w-[1160px] mx-auto px-10">
+      <div className="max-w-[1440px] mx-auto px-10">
         <Navbar />
         <h1 className="text-4xl md:text-[52px] leading-[1.16] mt-9 font-extrabold -tracking-[0.5px]">
           Get Access to Hundreds

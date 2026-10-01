@@ -8,7 +8,7 @@ export default function CTASection() {
       <LimeSquiggle style={{ left: 0, top: 20, width: 170 }} />
       <WhiteSquiggle style={{ right: '2%', top: 30, width: 130 }} />
       <span className="absolute z-[2] w-0 h-0 border-l-[24px] border-l-transparent border-r-[24px] border-r-transparent border-b-[46px] border-b-white left-[8%] bottom-5" />
-      <div className="max-w-[1160px] mx-auto px-10 relative z-[3]">
+      <div className="max-w-[1440px] mx-auto px-10 relative z-[3]">
         <h2 className="text-5xl font-extrabold leading-tight">
           Unlock Your Potential as a
           <br />
@@ -20,7 +20,9 @@ export default function CTASection() {
           creators. Utilize our Course Editor, and showcase your expertise by publishing your finest
           course on the ByteSpace Course Library.
         </p>
-        <Button as={Link} to="/signup">
+        <Button as={Link} to="/signup" 
+        className='rounded-full'
+        >
           Join as Creator
         </Button>
       </div>

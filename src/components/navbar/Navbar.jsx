@@ -18,7 +18,7 @@ export default function Navbar() {
       </div>
       <div className="flex gap-6 items-center">
         <Link to="/signin">Sign In</Link>
-        <Button as={Link} to="/signup" className="!px-5 !py-2.5">
+        <Button as={Link} to="/signup" className="!px-5 !py-2.5 rounded-full">
           Join Us
         </Button>
         <img src={Cart} alt="Cart" />
