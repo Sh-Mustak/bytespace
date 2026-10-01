@@ -1,12 +1,8 @@
-import {
-  categories,
-  chips,
-  courseGradients,
-  courses,
-} from "../../data/content";
-import CategoryCard from "./CategoryCard.jsx";
+import { chips, courseGradients, courses } from "../../data/content";
+
 import Chip from "./Chip.jsx";
 import CourseCard from "./CourseCard.jsx";
+import LearningPathsSection from "./LearningPathsSection";
 
 export default function CoursesSection() {
   return (
@@ -39,7 +35,7 @@ export default function CoursesSection() {
           ))}
         </div>
 
-      
+        <LearningPathsSection />
       </div>
     </section>
   );

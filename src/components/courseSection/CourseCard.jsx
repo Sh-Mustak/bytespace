@@ -3,7 +3,7 @@ import  StarIcon  from "../../assets/star.svg";
 
 export default function CourseCard({ course }) {
   // Make sure avatars is always an array
-
+  const avatars = Array.isArray(course?.avatars) ? course.avatars : [];     
 
   return (
     <div className="w-full max-w-[580px] rounded-[28px] border border-[#d5d5dc] bg-white p-[18px]">

@@ -1,13 +1,17 @@
-import { categoryIcons } from '../icons/Icons'
-
-export default function CategoryCard({ name }) {
-  const Icon = categoryIcons[name]
+export default function CategoryCard({ name, icon }) {
   return (
-    <div className="border border-line rounded-2xl py-6 px-2 text-center text-[12.5px] font-semibold transition hover:border-blue">
-      <i className="not-italic grid place-items-center w-[38px] h-[38px] mx-auto mb-3.5 rounded-full bg-lime">
-        {Icon && <Icon className="w-[17px] h-[17px]" />}
-      </i>
+    <div className="rounded-2xl border border-[#CED0D3] px-2 py-6 text-center text-[12.5px] font-semibold transition hover:border-blue">
+      <div className="mx-auto mb-3.5 grid h-[50px] w-[50px] place-items-center rounded-full bg-lime">
+        {icon && (
+          <img
+            src={icon}
+            alt={`${name} icon`}
+            className="h-[40px] w-[40px]"
+          />
+        )}
+      </div>
+
       {name}
     </div>
-  )
+  );
 }
