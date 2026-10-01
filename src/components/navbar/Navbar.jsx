@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
+import Logo from "../../assets/Header_Logo.svg";
+import Cart from "../../assets/Style=Outlined.svg";
 import Button from "../common/Button";
-import Logo from "../../assets/Header_Logo.svg"
-
 export default function Navbar() {
   return (
     <nav className="flex items-center justify-between py-6 text-sm relative z-[3]">
@@ -21,6 +21,7 @@ export default function Navbar() {
         <Button as={Link} to="/signup" className="!px-5 !py-2.5">
           Join Us
         </Button>
+        <img src={Cart} alt="Cart" />
       </div>
     </nav>
   );
