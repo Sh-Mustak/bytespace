@@ -21,7 +21,7 @@ export default function GrowthSection() {
       id="creators"
       className="bg-[linear-gradient(135deg,#edf9a0_0%,#f3f6ff_40%,#ffffff_100%)] py-20 font-sans text-gray-900 overflow-hidden"
     >
-      <div className="max-w-[1180px] mx-auto px-6 md:px-10 space-y-28">
+      <div className="max-w-[1440px] mx-auto px-6 md:px-10 space-y-28">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           <div className="lg:col-span-6 max-w-lg">
             <h2 className="text-3xl md:text-[36px] leading-[1.2] font-black text-gray-900 tracking-tight">

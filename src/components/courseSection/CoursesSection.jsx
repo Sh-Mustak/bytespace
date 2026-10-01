@@ -7,7 +7,7 @@ import LearningPathsSection from "./LearningPathsSection";
 export default function CoursesSection() {
   return (
     <section id="courses" className="py-16">
-      <div className="max-w-[1160px] mx-auto px-10">
+      <div className="max-w-[1440px] mx-auto px-10">
         <h2 className="text-[26px] text-center font-extrabold leading-tight -tracking-[0.3px]">
           Discover Your Passion,
           <br />
